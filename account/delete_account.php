@@ -37,7 +37,7 @@ require("../library/duration.php");
 <tr>
 <td>Account Email</td>
 <td>: <select name="pid" style="width:60mm">
-<option value=""> - SELECT EMAIL ADDRESS -</option>
+<option value=""> - SELECT EMAIL ADD -</option>
 <?php
 require("../library/connection.php");
 
