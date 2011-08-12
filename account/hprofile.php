@@ -29,7 +29,7 @@ if (!mysql_query($sql,$con))
 echo "<p>Your password has been modified successfully!</p>";
 
 }else{
-echo "<p><font color=\"red\">Your old password is incorrect!<br/>Password not change.</font></p>";
+echo "<p><font color=\"red\">Your old password is NOT CORRECT!<br/>Password not change.</font></p>";
 }
 mysql_close($con)
 ?> 
